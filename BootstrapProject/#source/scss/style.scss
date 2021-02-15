@@ -1,0 +1,33 @@
+@import "reset";
+@import "header";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+button {
+   padding: 5px;
+   font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+border:2px solid #BC9CFF;
+   
+
+
+
+}
+.button-transparent{
+   
+   background-color: white;
+   color: #BC9CFF;
+   border-radius: 22px;
+}
+.button-full {
+   background-color: black;
+   color:white;
+   background-color:  #BC9CFF;
+   border-radius: 22px;
+
+}
