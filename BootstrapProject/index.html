@@ -8,6 +8,7 @@
    <title>Document</title>
 </head>
 <body>
+<header class="header">
 <nav class="navbar navbar-expand-lg header-nav navbar-light">
    <div class="container">
    <a class="navbar-brand">
@@ -46,7 +47,40 @@
       
    </div>
 </div>
-</nav><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</nav>
+</header><main class="main">
+   <div class="container main-wrapper">
+   <div class="form-wrapper">
+   <form action="#" class="row col-md-4 main-form g-4">
+      <h1 class="main-title form-title">
+         Найдём номера под ваши пожелания
+      </h1>
+      <div class="col-md-6">
+         <label for="inputDate">ПРИБЫТИЕ</label>
+         <input type="date" class="form-control">
+       </div>
+       <div class="col-md-6">
+         <label for="inputDate">ВЫЕЗД</label>
+         <input type="date" class="form-control">
+       </div>
+       <div>
+         <label for="inputState" class="form-label">Сколько гостей</label>
+         <select id="inputState" class="form-select">
+           <option>1</option>
+           <option>2</option>
+           <option>3</option>
+         </select>
+       </div>
+       
+       <div class="form-button__wrapper">
+         <button type="submit" class="form-button button-full">подобрать номер</button>
+       </div>
+
+   </form>
+   </div>
+</div>
+   
+</main><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
